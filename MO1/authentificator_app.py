@@ -1,5 +1,6 @@
 # This App asks users for a username and password, then it checks the credentials against authorized users.
 # if the credentials are authentic then the app greats the user based on their role. 
+# This app practices Confinentiality from the CIA triad. It ensures that users gain appropriate access based on their role. 
 
 import sys
 # predefined users: could be objects from a user class
@@ -28,6 +29,9 @@ while tryagain.lower() == "yes":
 
 
 
+
+
+## From Class
 # Generates a list of prime numbers in a range
 def primelist(lower,upper):
     primes = []
