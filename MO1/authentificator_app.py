@@ -46,4 +46,4 @@ def primelist(lower,upper):
     print(primes)  
 
 # lower, upper = map(int, input("Enter range for your list of primes (e.g. 10,50): ").replace(',', ' ').split())      
-# primelist(lower,upper)
+#print(primelist(10000000, 100000000))
